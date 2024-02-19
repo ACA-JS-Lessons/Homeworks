@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../common/style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div id="header">
+        <img id="logo"
+            src="https://banner2.cleanpng.com/20180326/gxq/kisspng-github-computer-icons-icon-design-github-5ab8a31e334e73.4114704215220498222102.jpg"
+            alt="logo">
+        <a href="../users-list/index.html">Back</a>
+    </div>
+    <div id="login-container">
+        <form id="login-form">
+            <input type="text" id="login-username" placeholder="Username" name="username"/>
+            <div id="login-password-container">
+                <input type="password" id="login-password" placeholder="Password" name="password" />
+                <button id="login-show">show</button>
+            </div>
+            <input type="date" />
+            <div>
+                <p>Gender</p>
+                <input name="gender" type="radio" value="Male" id="login-gender-male" /> <label for="login-gender-male">Male</label>
+                <input name="gender" type="radio" value="Female" id="login-gender-female" /> <label
+                    for="login-gender-female">Female</label>
+            </div>
+            <div>
+                <input type="checkbox" id="login-accept-terms"/><label for="login-accept-terms">I accept <a href="https://termly.io/resources/templates/terms-and-conditions-template/" target="_blank">terms and conditions</a></label>
+            </div>
+
+            <button id="login-button-register" type="submit">Register</button>
+        </form>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
