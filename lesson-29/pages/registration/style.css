@@ -32,10 +32,14 @@
     background-color: rgba(255, 0, 0, 0.5);
 }
 .validation-message{
+    display: none;
     font-size: 12px;
     padding-left: 10px;
     color: #f00;
 }
 .validation-message .correct{
     color: #0f0;
+}
+[type=password]:focus ~ .validation-message{
+    display: block;
 }
